@@ -7,17 +7,33 @@
     <title>Examen ED</title>
     <link rel="stylesheet" href="css/estilo.css">
     <style>
-        div{
-            width: 600px;
+        #principal{
+            width: 800px;
             margin: auto;
+            background-color: #cccccc;
         }
+        h1{
+            color: red;
+            text-align: center;
+        }
+        h2{
+            color: blue;
+            text-align: center;
+        }
+        div img{
+            display: flex;
+            margin: 0 auto;
+        }
+
     </style>
 
 </head>
 <body>
-    <div>
+    <div id="principal">
         <h1>NOMBRE COMPLETO DEL ALUMNO</h1>
-        <img src="img/nieve.jpg" alt="Foto de la nieve">
+        <div>
+            <img src="img/nieve.jpg" alt="Foto de la nieve">
+        </div>
         <br>
 
         <?php
