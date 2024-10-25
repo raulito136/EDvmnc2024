@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Examen ED</title>
     <link rel="stylesheet" href="css/estilo.css">
+    
     <style>
         #principal{
             width: 800px;
